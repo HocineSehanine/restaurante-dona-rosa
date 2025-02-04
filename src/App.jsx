@@ -1,26 +1,15 @@
-import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
-import { QRCodeSVG } from "qrcode.react";
-import { Button, Container, Paper, Typography, Grid, Box } from "@mui/material";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {QRCodeSVG} from "qrcode.react";
+import {Box, Container, Paper} from "@mui/material";
 import lanchesImage from "./assets/lanches.png";
 import pratosEspeciasImage from "./assets/pratos-especias.png";
 import pratosExecutivosSaladas from "./assets/pratos-executivos-saladas.png";
-
-const Home = () => {
-    return (
-        <Container maxWidth="sm">
-            <Grid container justifyContent="center" alignItems="center" direction="column" sx={{ mt: 5, textAlign: "center" }}>
-                <Typography variant="h5" gutterBottom>Escaneie o QR Code para acessar o cardápio</Typography>
-
-                <Typography variant="body1" sx={{ mt: 2 }}>
-                    Ou <Button component={Link} to="/menu" variant="contained">clique aqui</Button> para ver o menu.
-                </Typography>
-            </Grid>
-        </Container>
-    );
-};
+import porcoes from "./assets/porcoes.png";
+import cervejas from "./assets/cervejas.png";
+import drink from "./assets/drink.png";
 
 const Menu = () => {
-    const menuUrl = `${window.location.origin}/menu`;
+    const menuUrl = `${window.location.origin}`;
     return (
         <Container maxWidth="sm">
             <Paper elevation={3} sx={{ p: 3, display: "flex", justifyContent: "center", alignItems: "center" }}>
@@ -34,6 +23,15 @@ const Menu = () => {
             </Box>
             <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 5 }}>
                 <img src={pratosExecutivosSaladas} alt="Menu" style={{ width: "100%", maxWidth: "400px", height: "auto" }} />
+            </Box>
+            <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 5 }}>
+                <img src={porcoes} alt="Menu" style={{ width: "100%", maxWidth: "400px", height: "auto" }} />
+            </Box>
+            <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 5 }}>
+                <img src={cervejas} alt="Menu" style={{ width: "100%", maxWidth: "400px", height: "auto" }} />
+            </Box>
+            <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 5 }}>
+                <img src={drink} alt="Menu" style={{ width: "100%", maxWidth: "400px", height: "auto" }} />
             </Box>
         </Container>
     );
