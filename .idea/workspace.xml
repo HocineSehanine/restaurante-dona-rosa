@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ffd302b-c81a-42e0-9c2a-80c92d5847f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/cervejas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/drink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/porcoes.png" afterDir="false" />
+    <list default="true" id="9ffd302b-c81a-42e0-9c2a-80c92d5847f6" name="Changes" comment="feat: complete pngs">
+      <change afterPath="$PROJECT_DIR$/src/components/CollapsibleMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DeleteModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/AuthContext.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +40,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/hocine/personal/restaurante-dona-rosa/src/assets&quot;,
@@ -51,6 +61,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -81,10 +94,25 @@
       <option name="presentableId" value="Default" />
       <updated>1738685895557</updated>
       <workItem from="1738685896563" duration="8010000" />
+      <workItem from="1738758523132" duration="608000" />
+      <workItem from="1738782490179" duration="2312000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: complete pngs">
+      <option name="closed" value="true" />
+      <created>1738696861192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738696861192</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: complete pngs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: complete pngs" />
   </component>
 </project>
